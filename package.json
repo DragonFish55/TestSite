@@ -13,7 +13,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://DragonFish55.github.io/testsite",
+  "homepage":"https://dragonfish55.github.io/testsite",
   "scripts": {
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
