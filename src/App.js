@@ -8,7 +8,7 @@ import AboutPage from './components/AboutPage/AboutPage';
 function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route exact path = '/' element={<LandingPage />}></Route>
         <Route path = '/about' element={<AboutPage />}></Route>
         
